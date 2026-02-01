@@ -1,4 +1,4 @@
-/* ================================
+* ================================
    1. CSS VARIABLES (THEMING)
 ================================ */
 :root {
@@ -44,53 +44,37 @@ body {
   letter-spacing: 1px;
 }
 
-.toggle-theme {
+.login-theme {
   padding: 0.5rem 1rem;
   border-radius: var(--radius);
   background: var(--primary);
+  display: flex;
   color: white;
   border: none;
   cursor: pointer;
   transition: transform 0.3s;
 }
 
-.toggle-theme:hover {
+.login-theme:hover {
   transform: rotate(20deg);
 }
 
-.navbar{
+.signup-theme {
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  background: var(--primary);
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-}
-
-.nav-actions{
-  display: flex;
-  gap: 12px; /* space between login & signup */
-}
-
-.btn{
-  padding: 8px 18px;
-  border-radius: 20px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-   cursor: pointer;
+  color: white;
+  border: none;
+  cursor: pointer;
   transition: transform 0.3s;
 }
 
-.login{
-  background: #1e90ff;
-  color: #fff;
+.signup-theme:hover {
   transform: rotate(20deg);
 }
 
-.signup{
-  background: #1e90ff;
-  color: #fff;
-  transform: rotate(20deg);
-}
+
 
 /* ================================
    3. HERO SECTION
@@ -221,4 +205,5 @@ body {
     width: 100%;
   }
 }
+
 
